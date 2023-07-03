@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>188713907283-oj6hc1nuu0tts603rfqj0b8htg9l1nrp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.188713907283-oj6hc1nuu0tts603rfqj0b8htg9l1nrp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBMr3EBzYsWP0Zupk26qWLKXaAeQeA23OU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>188713907283</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hk.com.rovertech.jsproapp</string>
+	<key>PROJECT_ID</key>
+	<string>js-pro-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>js-pro-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:188713907283:ios:fe99ca889bf7f92e2f82a6</string>
+</dict>
+</plist>
