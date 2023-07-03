@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" />
+  <title>JS PRO</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+
+
+    document.addEventListener('deviceready', onDeviceReady, false);
+
+    function onDeviceReady() {
+      // 在设备准备就绪后执行的逻辑代码
+      // 可以在这里调用 Cordova 提供的原生功能
+      console.log(window, 'deviceready')
+      window.ContactsX.hasPermission(
+        function (success) {
+          console.log(success, 'hasPermission');
+        },
+        function (error) {
+          console.error(error);
+        }
+      );
+
+    }
+  </script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+
+
+
+</html>

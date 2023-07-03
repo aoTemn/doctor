@@ -1,0 +1,83 @@
+@import 'reset';
+@import 'mixin';
+@import 'var';
+
+body {
+  @media screen and (min-width: 768px) {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+.wrap {
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #034078;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .input-title {
+    font-size: 14px;
+    color: #0d0d0d;
+    font-weight: 600;
+    margin-bottom: 9px;
+  }
+  .input {
+    width: 100%;
+    background-color: #ededed;
+    border-radius: 10px;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+  }
+  .ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+  .ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+  .ant-form-item-has-error
+    :not(.ant-input-number-affix-wrapper-disabled):not(
+      .ant-input-number-affix-wrapper-borderless
+    ).ant-input-number-affix-wrapper,
+  .ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+  .ant-form-item-has-error
+    :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover,
+  .ant-form-item-has-error
+    :not(.ant-input-number-affix-wrapper-disabled):not(
+      .ant-input-number-affix-wrapper-borderless
+    ).ant-input-number-affix-wrapper:hover {
+    border: 1px solid #ff4d4f;
+  }
+  .btn {
+    width: 100%;
+    color: #fff;
+    background-color: #034078;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+  .go-login {
+    color: var(--font-color-p1);
+    font-size: 14px;
+    margin-top: 20px;
+    span {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+  }
+  .wrap-content {
+    padding: 0 16px;
+  }
+}
+
+.van-toast {
+  width: auto;
+}

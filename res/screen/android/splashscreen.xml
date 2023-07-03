@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the splash screen -->
+    <!-- <item android:drawable="@android:color/white" /> -->
+
+    <!-- Logo or image for the splash screen -->
+    <item><bitmap android:src="@drawable/screen"  android:gravity="center" /></item>
+    <!-- <item><bitmap android:src="drawable-land-ldpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-land-mdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-land-xhdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-land-xxhdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-land-xxxhdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-hdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-ldpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-mdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-xhdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-xxhdpi/screen"  android:gravity="center" /></item>
+    <item><bitmap android:src="drawable-port-xxxhdpi/screen"  android:gravity="center" /></item> -->
+    <!-- Animation for the splash screen -->
+    <item>
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:duration="1000" />
+    </item>
+</layer-list>
